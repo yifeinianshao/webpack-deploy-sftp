@@ -1,0 +1,19 @@
+{
+  "name": "webpack-deploy-ftp",
+  "version": "0.0.1",
+  "description": "a deploy ftp webpack plugin",
+  "keywords": ["webpack", "plugin", "ftp", "sftp", "deploy"],
+  "main": "index.js",
+  "author": "yifeinianshao",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifeinianshao/webpack-deploy-ftp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yifeinianshao/webpack-deploy-ftp/issues"
+  },
+  "license": "MIT"
+}
