@@ -7,7 +7,7 @@ const pluginName = 'WebpackDeploySftp'
 const requiredParams = ['port', 'host', 'user', 'password', 'path', 'remotePath']
 class WebpackDeploySftp {
   constructor(options) {
-    this.options = options
+    this.options = options || {}
   }
   consoleErrorInfo(err) {
     console.log(chalk.red(`deploy failure: ${err}`))
