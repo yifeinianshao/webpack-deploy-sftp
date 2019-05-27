@@ -10,7 +10,7 @@ class WebpackDeploySftp {
     this.options = options || {}
   }
   consoleErrorInfo(err) {
-    console.log(chalk.red(`deploy failure: ${err}`))
+    console.error(chalk.red(`deploy failure: ${err}`))
   }
   apply(compiler) {
     compiler.hooks.done.tap(pluginName, compilation => {
