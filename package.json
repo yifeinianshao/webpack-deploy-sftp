@@ -1,8 +1,13 @@
 {
-  "name": "webpack-deploy-ftp",
-  "version": "0.0.1",
-  "description": "a deploy ftp webpack plugin",
-  "keywords": ["webpack", "plugin", "ftp", "sftp", "deploy"],
+  "name": "webpack-deploy-sftp",
+  "version": "0.0.2",
+  "description": "a webpack deploy sftp plugin",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "sftp",
+    "deploy"
+  ],
   "main": "index.js",
   "author": "yifeinianshao",
   "scripts": {
@@ -10,10 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yifeinianshao/webpack-deploy-ftp.git"
+    "url": "git+https://github.com/yifeinianshao/webpack-deploy-sftp.git"
   },
   "bugs": {
-    "url": "https://github.com/yifeinianshao/webpack-deploy-ftp/issues"
+    "url": "https://github.com/yifeinianshao/webpack-deploy-sftp/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "scp2": "^0.5.0",
+    "ssh2-sftp-client": "^2.5.0"
+  }
 }
